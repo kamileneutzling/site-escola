@@ -12,6 +12,8 @@ body {
 .meio{
     justify-content: space-around;
     Display:flex;
+    width:90;
+    height:10
 }
 
 .topico{
@@ -62,8 +64,7 @@ body {
 
 .sobreescola{
 	width:10%s
-	margin-left: 180px;
-
+	
 }
 
 .turma img {
@@ -84,4 +85,11 @@ body {
 .turmatxt{
 	width:550%;
 	margin-right: 10px;
+}
+.button1{
+ font-size: 60px;;
+   
+   
+
+
 }
