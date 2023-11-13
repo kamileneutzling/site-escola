@@ -1,0 +1,110 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color:white;
+    font-size: 18px;
+    font-style: bold;
+}
+
+.logoescola {
+    width: 30%;
+}
+
+.meio{
+    justify-content: space-around;
+    Display:flex;
+    width:90;
+    height:10
+}
+
+.topico{
+    margin-right: 10cm;
+    margin-top: 150px;
+    font-size: 25px;
+    
+}
+
+.estudantetitulo {
+	margin-left: 100px;
+}
+
+.estudantes {
+    display: flex; /* display flexível */
+    flex-wrap: wrap; /* colocar itens em sequencia até não caber mais*/
+    justify-content: center;
+   
+}
+
+.item {
+    margin-top: 30px; /* Espaço superior de 10 pixels */
+    margin-bottom: 30px; /* Espaço inferior de 10 pixels */
+    width: 300px;
+
+}
+
+.item img{
+    width: 215px;
+    height: 210px;
+    border-radius: 05%;
+}
+
+.escola img {
+	width:75%;
+	margin-right: 00px;
+ 	margin-top: 70px; /* Espaço superior de 10 pixels */
+        margin-bottom: 50px; /* Espaço inferior de 10 pixels */
+
+}
+
+.escola {
+	background-image: linear-gradient(BLACK,rgb(55, 24, 77));
+  	display: flex;
+ 	align-items: center; 
+	justify-content: center;
+}
+
+.sobreescola{
+	width:10%s
+	
+}
+
+.turma img {
+	width:75%;
+	margin-left: 100px;
+ 	margin-top: 50px; /* Espaço superior de 10 pixels */
+        margin-bottom: 50px; /* Espaço inferior de 10 pixels */
+        border-radius:10% ;
+}
+
+.turma {
+	background-image: linear-gradient(rgb(55, 24, 77),black);
+  	display: flex;
+ 	align-items:center ; 
+	justify-content: center;
+}
+
+.turmatxt{
+	width:550%;
+	margin-right: 10px;
+}
+.button {
+ color:azure;
+ font-weight: 400;
+ font-size: 20px;
+ margin: 0px 30px;
+ padding: 20px;
+ border-radius: 15px;
+ transition: background 1.0s;
+ transform: translateX(1px) scale(0.8);
+}
+
+.button:hover, .button:focus {
+    background:rgb(174, 130, 194) ;
+    color: black;
+    border-radius:25px ;
+    transform: translateX(1px) scale(1.1);
+
+}
